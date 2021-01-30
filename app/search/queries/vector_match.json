@@ -1,0 +1,20 @@
+{
+  "query": {
+    "script_score": {
+      "query": {
+        "bool": {
+          "must": {
+            "match": {
+              "contents": {
+              }
+            }
+          }
+        }
+      },
+      "script": {
+        "params": {
+        }
+      }
+    }
+  }
+}
